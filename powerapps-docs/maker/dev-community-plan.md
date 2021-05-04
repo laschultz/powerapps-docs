@@ -120,6 +120,9 @@ Both Power Apps Plan Trial and Power Apps Community Plan are free, but are creat
 
 **Power Apps Community Plan** gives you access to Power Apps premium functionalities, Dataverse, and Power Automate for individual use. This plan is primarily meant for learning purposes or creating business solutions to be distributed for [Microsoft AppSource](https://appsource.microsoft.com). This plan is perpetually available, but only for learning and building your skills on Power Apps, Dataverse, and Power Automate.
 
+## What's the difference between internal and viral trial plans?
+You can choose one of the allowed consent plans for accessing a tenant. “Internal” consent plans are either trial licenses or community plans that users can sign themselves up for via Power Apps/Power Automate portals. Internal plans (also sometimes referred to as "shadow licenses") exist only in the backend tables of the Power Platform licensing service. They have no footprint in AAD and thus are not visible to admins in the M365 Admin Center nor in the Azure Portal. "Viral" consent plans are trial licenses that users can sign up for themselves at [signup.microsoft.com](http://signup.microsoft.com) or admins can assign to users via Azure Active Directory (Azure AD). Virtual plans have footprint in Azure Active Directory (AAD), therefore they can be managed by tenant admins.
+
 ### Can I sign up with my personal account?
 
 No, you can only sign up with your [work or school account](signup-for-powerapps.md#faq). We currently do not support signing up with a personal account.
